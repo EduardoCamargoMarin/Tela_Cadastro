@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #004AAD;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+    background-color: rgb(6, 6, 88);
+}
+
+.cabecalho-imagem{
+
+    height: 150px;
+}
+
+.cabecalho-menu{
+    display: flex;
+        gap: 100px;
+}
+
+.cabecalho-botao{
+    background-color: #011c46;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 254, 254);
+    font font-weight: 700;
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+    border-color: white;
+    border-width: 5px;
+}
+
+.corpo{
+    border-top: 3px groove rgb(243, 247, 9);
+}
+
+.corpo-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+   
+      
+}
+
+.corpo-imagem{
+    height: 500px;
+}
+
+
+.corpo-texto1{
+    color:aliceblue;
+    font-size: 30px;
+}
+
+.corpo-mensagem{
+    color:aliceblue;
+}
+
+
+
+.corpo-botao{
+    background-color: #082657;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font font-weight: 1000;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    border-color: rgb(240, 233, 233);
+    border-width: 5px;
+    margin: 10px;
+    
+
+}
+
+.corpo-menu-2{
+    background-color: #082657;
+    border: 5px groove white;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 30px;
+   border-width: 10px;
+   height: 450px;
+   width: 500px;
+}
+
+.corpo-texto-1{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.corpo-mensagem{
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 30px;
+
+}
